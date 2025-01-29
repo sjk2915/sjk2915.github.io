@@ -6,6 +6,10 @@ h1 {
   pont-size: 5rem;
 }
 
+h2 {
+  pont-size: 2rem;
+}
+
 .container {
   width: 100%;
   max-width: 50rem;
