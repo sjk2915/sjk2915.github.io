@@ -1,9 +1,9 @@
 html {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 h2 {
@@ -11,11 +11,11 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .container {
   width: 100%;
-  max-width: 75rem;
+  max-width: 70rem;
   margin: auto;
 }
