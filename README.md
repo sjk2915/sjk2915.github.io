@@ -14,15 +14,15 @@
 ## 🚀 Key Projects
 
 ### 1. StackGuys (대규모 멀티플레이 레이스 게임)
-**🔗 Repository:** [May-I-Game](https://github.com/May-I-Game)
+**🔗 Repository:** [May-I-Game/stack-guys](https://github.com/May-I-Game/stack-guys)
 
-'폴가이즈' 스타일의 실시간 멀티플레이어 레이스 게임입니다. 단일 세션 100명이 플레이 가능한 서버를 구축하고
+'폴가이즈' 스타일의 실시간 멀티플레이어 레이스 게임입니다. 단일 세션 100명이 플레이 가능한 서버를 구축하고 <br>
 이를 스케일 아웃하여 대규모 인원을 수용하는 아키텍처를 설계했습니다.
 
 * **Role:** 서버 프로그래밍, 플레이어 로직, 맵 에디터, 부하 테스트 툴 개발
 * **Tech Stack:** Unity, Unity Netcode for GameObjects(NGO), C#
 * **Key Features:**
-    * Headless Unity Server 기반 100명 단위 세션을 500개로 확장한 5만명 동시 접속이 가능한 서버 구조 설계 및 검증.
+    * Headless Unity Server 기반 100명 단위 세션을 500개로 확장한 5만명 동시 접속이 가능한 서버 구조 설계 및 검증
     * 대규모 플레이어 동기화 문제해결을 위한 커스텀 패킷 배칭 및 최적화 구현
     * 생산성 향상을 위한 맵 에디터 구현 및 서버 부하 테스트를 위한 테스트 프로그램 자체 개발
  
@@ -90,3 +90,8 @@ GitHub 커밋 기반 경품에 응모하는 웹 서비스입니다. 백엔드 AP
 * **Email:** seo980620@gmail.com
 * **GitHub:** [https://github.com/sjk2915](https://github.com/sjk2915)
 * **Blog:** [https://seo980620.tistory.com/](https://seo980620.tistory.com)
+
+<style>
+  header { display: none !important; }
+  .wrapper { margin-top: 0 !important; }
+</style>
