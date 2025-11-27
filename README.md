@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+
 # 안녕하세요, 서정의 포트폴리오입니다.
 
 ## 🛠 Skills
