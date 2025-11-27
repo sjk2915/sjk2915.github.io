@@ -79,6 +79,6 @@ GitHub 커밋 기반 경품에 응모하는 웹 서비스입니다. 백엔드 AP
 ---
 
 ## 📬 Contact
-* **Email:** [seo980620@gmail.com]
+* **Email:** seo980620@gmail.com
 * **GitHub:** [https://github.com/sjk2915](https://github.com/sjk2915)
 * **Blog:** [https://seo980620.tistory.com/](https://seo980620.tistory.com)
