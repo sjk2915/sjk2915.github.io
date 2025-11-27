@@ -34,7 +34,7 @@
 ## 시연영상 & 포스터
 
 ### 🎥 시연영상
-> **[![Video Label](http://img.youtube.com/vi/dXCM9R4kjuk/0.jpg)](https://youtu.be/dXCM9R4kjuk)**
+**[![Video Label](http://img.youtube.com/vi/dXCM9R4kjuk/0.jpg)](https://youtu.be/dXCM9R4kjuk)**
 
 *(이미지를 클릭하면 시연 영상을 보실 수 있습니다. 발표는 팀장이 진행하였습니다.)*
 
@@ -81,7 +81,7 @@ GitHub 커밋 기반 경품에 응모하는 웹 서비스입니다. 백엔드 AP
 * **Key Features:**
      * **SSR Rendering**: 페이지 렌더링(Login, Main 등)은 SSR 방식을 사용하여 SEO와 초기 로딩 속도를 고려.
      * **비즈니스 로직 구현:** 응모권 기반 응모(`POST /lotto`) 및 당첨 결과 산출 알고리즘.
-     * **데이터 시각:** GitHub 커밋 활동을 JSON으로 가공하여 잔디 그래프로 시각화.
+     * **데이터 시각화:** GitHub 커밋 활동을 JSON으로 가공하여 잔디 그래프로 시각화.
      * **MongoDB 스키마 설계:** 복잡한 Join 없이 단일 쿼리로 사용자 활동을 조회하도록 읽기 성능 최적화.
 
 ---
