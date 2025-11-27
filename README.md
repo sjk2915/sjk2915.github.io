@@ -12,7 +12,7 @@
    * 기획/아트 파트의 생산성을 높이는 Editor Scripting 및 커스텀 툴 개발
 * **Multiplayer Networking:**
    * 대규모 동시 접속 처리를 위한 Headless Server 아키텍처 설계
-   * 네트워크 대역폭 최적화를 위한 패킷 배칭 및 동기화 로직 구현
+   * 네트워크 대역폭 최적화를 위한 패킷 설계 및 동기화 로직 구현
 * **Systems Programming (CS):**
    * OS 스케줄러/가상 메모리 구현을 통한 프로세스·스레드 구조 이해 (PintOS)
    * 멀티스레딩 환경에서의 동시성 제어 및 메모리 관리 역량
