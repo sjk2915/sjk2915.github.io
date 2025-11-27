@@ -59,9 +59,9 @@
 <details>
 <summary><b>🖼 인게임 스크린샷 보기 (Click)</b></summary>
 <br>
-<img src="https://github.com/sjk2915/sjk2915.github.io/blob/main/RustyDome_%EA%B7%B8%EB%A6%BC1.png" width="600">
-<img src="https://github.com/sjk2915/sjk2915.github.io/blob/main/RustyDome_%EA%B7%B8%EB%A6%BC2.png" width="600">
-<img src="https://github.com/sjk2915/sjk2915.github.io/blob/main/RustyDome_%EA%B7%B8%EB%A6%BC3.png" width="600">
+<img width="590" height="399" alt="RustyDome_그림1" src="https://github.com/user-attachments/assets/96d0979c-7bbe-4c68-8cd2-5baded7f4e9e" />
+<img width="599" height="400" alt="RustyDome_그림2" src="https://github.com/user-attachments/assets/514b4c00-b245-4ce7-ad7e-17c46d4bf14a" />
+<img width="591" height="395" alt="RustyDome_그림3" src="https://github.com/user-attachments/assets/c25b6d7b-6692-4810-a6ca-b8faff41e071" />
 </details>
 
 <br>
