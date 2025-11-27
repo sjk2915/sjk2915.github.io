@@ -4,23 +4,27 @@
 
 * **Languages:** C#, Python
 * **Engines & Tools:** Unity, Git
-* **Core Competencies:** Multiplayer Networking, Systems Programming (OS/Pintos)
-
+* **Core Competencies:**
+    * **Unity Client Programming:** Player Logic, Map Editor
+    * **Multiplayer Networking:** Custom Packet Optimization, Stress Test
+    * **Systems Programming:** OS Architecture, Pintos Project
+    * **Backend:** Flask, MongoDB, FastAPI
 ---
 
 ## 🚀 Key Projects
 
-### 1. StackGuys (멀티플레이 게임/서버 프로젝트)
+### 1. StackGuys (대규모 멀티플레이 레이스 게임)
 **🔗 Repository:** [May-I-Game](https://github.com/May-I-Game)
 
-'폴가이즈' 스타일의 실시간 멀티플레이어 레이스 게임입니다. Unity와 Netcode for GameObjects(NGO)를 사용하여 한번에 100명이 플레이 가능한 서버를 직접 구현했습니다.
+'폴가이즈' 스타일의 실시간 멀티플레이어 레이스 게임입니다. 단일 세션 100명이 플레이 가능한 서버를 구축하고
+이를 스케일 아웃하여 대규모 인원을 수용하는 아키텍처를 설계했습니다.
 
-* **Role:** [서버 프로그래밍, 플레이어 로직, 맵 에디터, 부하 테스트 툴 개발]
+* **Role:** 서버 프로그래밍, 플레이어 로직, 맵 에디터, 부하 테스트 툴 개발
 * **Tech Stack:** Unity, Unity Netcode for GameObjects(NGO), C#
 * **Key Features:**
-    * Headless Unity Server 기반 100명 단위 세션을 500개로 확장한 5만명 동시 접속 아키텍쳐 구현
+    * Headless Unity Server 기반 100명 단위 세션을 500개로 확장한 5만명 동시 접속이 가능한 서버 구조 설계 및 검증.
     * 대규모 플레이어 동기화 문제해결을 위한 커스텀 패킷 배칭 및 최적화 구현
-    * 생산성 향상을 위한 맵 에디터 구현 및 서버 스트레스 테스트를 위한 테스트 프로그램 개발
+    * 생산성 향상을 위한 맵 에디터 구현 및 서버 부하 테스트를 위한 테스트 프로그램 자체 개발
  
 ## 🚀 시연영상 & 포스터
 
@@ -38,7 +42,7 @@
 
 <br>
  
-### 2. RustyDome_ (졸업과제 / 플랫포머 매트로배니아 프로젝트)
+### 2. RustyDome_ (매트로배니아 플랫포머)
 **🔗 Repository:** [Rostreaca/RustyDome_](https://github.com/Rostreaca/RustyDome_)
 
 메트로배니아 스타일의 싱글플레이 플랫포머 게임입니다. 맵 탐험 요소와 캐릭터 성장 시스템을 중심으로 개발했습니다.
