@@ -7,12 +7,15 @@
 
 * **Languages:** C#, Python
 * **Engines & Tools:** Unity, Git
-* **Core Competencies:**
-    * **Unity Client Programming:** Player Logic, Map Editor
-    * **Multiplayer Networking:** Custom Packet Optimization, Stress Test
-    * **Systems Programming:** OS Architecture, Pintos Project
-    * **Web Development:** Flask, MongoDB, FastAPI
-
+* **Unity Client & Tooling:**
+   * FSM(유한 상태 머신) 기반의 확장성 있는 캐릭터 로직 설계 및 구현
+   * 기획/아트 파트의 생산성을 높이는 Editor Scripting 및 개발자용 툴 개발
+* **Multiplayer Networking:**
+   * 대규모 동시 접속(CCU) 처리를 위한 Headless Server 아키텍처 설계
+   * 대역폭 절감을 위한 패킷 동기화 로직 구현 및 최적화
+* **Systems Programming (CS):**
+   * OS 스케줄러 및 가상 메모리 구현 경험을 통한 프로세스/스레드 구조의 심층적 이해 (PintOS)
+   * 멀티스레딩 환경에서의 동시성 제어 및 메모리 관리 역량
 ---
 
 ## 🚀 Key Projects
