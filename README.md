@@ -16,13 +16,11 @@
 * **Systems Programming (CS):**
    * OS 스케줄러/가상 메모리 구현을 통한 프로세스·스레드 구조 이해 (PintOS)
    * 멀티스레딩 환경에서의 동시성 제어 및 메모리 관리 역량
+<br>
 
+# 🚀 Key Projects
 
----
-
-## 🚀 Key Projects
-
-### 1. StackGuys (대규모 멀티플레이 레이스 게임)
+## 1. StackGuys (대규모 멀티플레이 레이스 게임)
 **🔗 Repository:** [May-I-Game/stack-guys](https://github.com/May-I-Game/stack-guys)
 
 '폴가이즈' 스타일의 실시간 멀티플레이어 레이스 게임입니다. 단일 세션 100명이 플레이 가능한 서버를 구축하고 
@@ -52,7 +50,7 @@
 
 <br>
  
-### 2. RustyDome_ (매트로배니아 플랫포머)
+## 2. RustyDome_ (매트로배니아 플랫포머)
 **🔗 Repository:** [Rostreaca/RustyDome_](https://github.com/Rostreaca/RustyDome_)
 
 무기 조합과 캐릭터 커스터마이징이 가능한 메트로배니아 스타일의 싱글플레이 플랫포머 게임입니다.
@@ -76,7 +74,7 @@
 
 <br>
 
-### 3. JungleGame (Github 연동 추첨 웹 서비스)
+## 3. JungleGame (Github 연동 추첨 웹 서비스)
 **🔗 Repository:** [sjk2915/junglegame](https://github.com/sjk2915/junglegame)
 
 GitHub 커밋 기반 경품에 응모하는 웹 서비스입니다. 백엔드 API와 DB 설계를 전담했습니다.
