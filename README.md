@@ -53,6 +53,14 @@
     * **정교한 캐릭터 조작:** 점프, 대시, 공격 등 플랫포머 특유의 조작감 및 물리 충돌 처리 구현.
     * **레벨 디자인 및 맵 시스템:** 탐험 가능한 맵 구조 설계 및 씬 전환 로직.
     * **게임 루프 및 상태 관리:** 플레이어 상태, 적 AI, 아이템 상호작용 등 핵심 게임 로직 구현.
+ 
+<details>
+<summary><b>🖼 인게임 스크린샷 보기 (Click)</b></summary>
+<br>
+<img src="https://github.com/sjk2915/sjk2915.github.io/blob/main/RustyDome_%EA%B7%B8%EB%A6%BC1.png" width="600">
+<img src="https://github.com/sjk2915/sjk2915.github.io/blob/main/RustyDome_%EA%B7%B8%EB%A6%BC2.png" width="600">
+<img src="https://github.com/sjk2915/sjk2915.github.io/blob/main/RustyDome_%EA%B7%B8%EB%A6%BC3.png" width="600">
+</details>
 
 <br>
 
