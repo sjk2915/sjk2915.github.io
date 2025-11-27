@@ -7,7 +7,7 @@
 ## 🛠 Skills
 
 * **Languages:** C#, Python
-* **Engines & Tools:** Unity, Git
+* **Engines & Tools:** Unity, Git, docker
 * **Unity Client & Tooling:**
    * FSM 기반의 확장성 있는 캐릭터 로직 설계 및 구현
    * 기획/아트 파트의 생산성을 높이는 Editor Scripting 및 커스텀 툴 개발
