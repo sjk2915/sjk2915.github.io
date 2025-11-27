@@ -16,7 +16,8 @@
 * **Systems Programming (CS):**
    * OS 스케줄러/가상 메모리 구현을 통한 프로세스·스레드 구조 이해 (PintOS)
    * 멀티스레딩 환경에서의 동시성 제어 및 메모리 관리 역량
-<br>
+
+
 ---
 
 ## 🚀 Key Projects
