@@ -125,7 +125,8 @@ private void SendPlayerBatch(ulong clientId, Vector3 observerPos)
 
 <br>
 
-## 2. RustyDome_ (매트로배니아 플랫포머)**🔗 Repository:** [Rostreaca/RustyDome_](https://github.com/Rostreaca/RustyDome_)
+## 2. RustyDome (매트로배니아 플랫포머)
+**🔗 Repository:** [Rostreaca/RustyDome_](https://github.com/Rostreaca/RustyDome_)
 
 무기 조합과 캐릭터 커스터마이징이 가능한 메트로배니아 스타일의 싱글플레이 플랫포머 게임입니다.
 
@@ -233,7 +234,7 @@ public class PlayerCombat : MonoBehaviour
     }
 }
 ```
-이처럼 `RustyDome_`은 확장성과 유지보수성을 최우선으로 고려한 설계를 통해, 복잡한 게임 시스템을 효율적으로 구축한 경험을 보여주는 프로젝트입니다.
+이처럼 `RustyDome`은 확장성과 유지보수성을 최우선으로 고려한 설계를 통해, 복잡한 게임 시스템을 효율적으로 구축한 경험을 보여주는 프로젝트입니다.
 
 <br>
 
