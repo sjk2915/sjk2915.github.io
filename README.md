@@ -64,7 +64,8 @@ public struct PlayerSnapshot : INetworkSerializeByMemcpy
     public short X, Y, Z;         // 6 Byte
     public ushort YRotation;       // 2 Byte 
 
-    private const float COMPRESS_RATIO = 50f; // 2cm 단위 정밀도
+    // 50f  : 2cm 단위 정밀도 (-655.36 ~ +655.34m)
+    private const float COMPRESS_RATIO = 50f;
 
     // 생성자로 데이터를 넣을 때 자동 압축
     public PlayerSnapshot(ulong netId, Vector3 pos, float rotY)
