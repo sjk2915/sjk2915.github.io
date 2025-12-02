@@ -2,10 +2,11 @@
 > Unity와 C#을 기반으로 한 게임 개발 역량과 OS, 네트워크 등 탄탄한 CS 기초를 갖추고 있습니다.
 <br>
 
+
 ## 🛠 Skills
 
 * **Languages:** C#, Python
-* **Engines & Tools:** Unity, Git, docker
+* **Engines & Tools:** Unity, Git, Docker
 * **Unity Client & Tooling:**
    * FSM 기반의 확장성 있는 캐릭터 로직 설계 및 구현
    * 기획/아트 파트의 생산성을 높이는 Editor Scripting 및 커스텀 툴 개발
@@ -26,7 +27,7 @@
 이를 스케일 아웃하여 대규모 인원을 수용하는 아키텍처를 설계했습니다.
 
 * **Role:** 서버 프로그래밍, 플레이어 로직, 맵 에디터, 부하 테스트 툴 개발
-* **Tech Stack:** Unity, Unity Netcode for GameObjects(NGO), C#
+* **Tech Stack:** Unity, Unity Netcode(NGO), C#
 * **Key Features:**
     * **5만 CCU 서버 설계 및 검증:** Headless Unity Server 기반 최대 5만명 동시 접속이 가능한 서버 구조 설계 및 검증.
     * **서버 권위 캐릭터 조작:** 이동, 점프, 다이브, 잡기, 던지기 등 플레이어 액션을 서버에서 처리하는 권위 구조 구현.
