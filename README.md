@@ -1,4 +1,19 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+<style>
+    /* 이 스타일은 body에 .markdown-body 클래스를 추가하거나, 아래처럼 직접 적용해야 합니다 */
+    body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 45px;
+    }
+    @media (max-width: 767px) {
+        body {
+            padding: 15px;
+        }
+    }
+</style>
 
 # 안녕하세요, 서정의 포트폴리오입니다.
 > Unity와 C#을 기반으로 한 게임 개발 역량과 OS, 네트워크 등 탄탄한 CS 기초를 갖추고 있습니다.
