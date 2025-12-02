@@ -213,7 +213,7 @@ public class PlayerCombat : MonoBehaviour
     public void MeleeAttack(EnemyController enemy)
     {
         // meleeWeapon은 ScriptableObject 에셋입니다.
-        // SO에 정의된 데이터(stunDmg)를 가져와 로직에 사용합니다.
+        // SO에 정의된 데이터를 가져와 로직에 사용합니다.
         enemy.GetDamage(player.meleeDmg, player.meleeWeapon.stunDmg);
     }
 
