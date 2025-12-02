@@ -178,3 +178,12 @@ GitHub 커밋 기반 경품에 응모하는 웹 서비스입니다. 백엔드 AP
 * **Email:** [seo980620@gmail.com](mailto:seo980620@gmail.com)
 * **GitHub:** [https://github.com/sjk2915](https://github.com/sjk2915)
 * **Blog:** [https://seo980620.tistory.com/](https://seo980620.tistory.com)
+
+<style>
+  header, .site-header, #header {
+    display: none !important;
+  }
+  body, .main-content {
+    margin-top: 50px !important;
+  }
+</style>
