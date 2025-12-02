@@ -1,6 +1,5 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
 <style>
-    /* 이 스타일은 body에 .markdown-body 클래스를 추가하거나, 아래처럼 직접 적용해야 합니다 */
     body {
         box-sizing: border-box;
         min-width: 200px;
