@@ -1,9 +1,5 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-csharp.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
-
 # 안녕하세요, 서정의 포트폴리오입니다.
 > Unity와 C#을 기반으로 한 게임 개발 역량과 OS, 네트워크 등 탄탄한 CS 기초를 갖추고 있습니다.
 <br>
