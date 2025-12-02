@@ -47,9 +47,79 @@
 </details>
 
 <br>
- 
-## 2. RustyDome_ (매트로배니아 플랫포머)
-**🔗 Repository:** [Rostreaca/RustyDome_](https://github.com/Rostreaca/RustyDome_)
+
+### 📐 주요 설계 및 구현 (Architectural Deep Dive)
+
+#### 커스텀 패킷 배칭 시스템 설계 및 구현
+
+`Unity Netcode for GameObjects`(NGO)의 기본 동기화 방식인 `NetworkTransform`은 소규모 프로젝트에서는 편리하지만, 수백 개의 객체가 동시에 움직이는 `StackGuys` 환경에서는 심각한 네트워크 부하를 유발합니다. 이 문제를 해결하고 대규모 동기화 환경에서도 높은 성능을 유지하기 위해, 여러 객체의 상태 정보를 하나의 패킷에 모아 전송하는 **커스텀 패킷 배칭(Packet Batching) 시스템**을 직접 설계하고 구현했습니다.
+
+##### 1. 데이터 압축: `Snapshot` 구조체
+전송 데이터 크기를 최소화하기 위해, 동기화에 필요한 핵심 정보(ID, 위치, Y축 회전)만을 담는 `PlayerSnapshot` 구조체를 정의하고, `Vector3`와 `float` 데이터를 각각 `short`와 `ushort`로 압축하여 객체당 데이터 크기를 50% 이상 절감했습니다.
+
+```csharp
+public struct PlayerSnapshot : INetworkSerializeByMemcpy
+{
+    public ushort NetworkObjectId; // 2 Byte
+    public short X, Y, Z;         // 6 Byte
+    public ushort YRotation;       // 2 Byte 
+
+    private const float COMPRESS_RATIO = 50f; // 2cm 단위 정밀도
+
+    public PlayerSnapshot(ulong netId, Vector3 pos, float rotY)
+    {
+        NetworkObjectId = (ushort)netId;
+        X = (short)Mathf.RoundToInt(pos.x * COMPRESS_RATIO);
+        Y = (short)Mathf.RoundToInt(pos.y * COMPRESS_RATIO);
+        Z = (short)Mathf.RoundToInt(pos.z * COMPRESS_RATIO);
+        // ...
+    }
+}
+```
+
+##### 2. 변경 감지 (Dirty Checking)
+마지막 동기화 상태와 비교하여 위치 또는 각도가 일정 이상 변경된 객체만 "Dirty"로 표시하고 동기화 목록에 포함시켜, 불필요한 데이터 전송을 원천 차단했습니다.
+
+```csharp
+private bool IsDirtyPlayer(ulong netId, PlayerController player)
+{
+    // ... (위치 및 회전 변화량 체크 로직)
+
+    // 임계값을 넘으면 더티 (변화 있음)
+    bool isDirty = posDelta >= posDeltaThreshold || rotDelta >= rotDeltaThreshold;
+
+    if (isDirty)
+    {
+        // 동기화된 상태 업데이트
+        player.SetLastSyncedState(currentPos, currentRotY);
+    }
+
+    return isDirty;
+}
+```
+
+##### 3. 패킷 배칭과 관심 영역(AOI) 기반 전송
+서버는 매 틱마다 Dirty 상태인 객체들의 스냅샷을 생성하고, 각 클라이언트의 시야(`syncDistance`) 내에 있는 객체들만 선별하여 하나의 패킷으로 묶어 전송합니다. `CustomMessagingManager`와 `UnreliableSequenced` 채널을 사용해 네트워크 오버헤드를 최소화했습니다.
+
+```csharp
+private void SendPlayerBatch(ulong clientId, Vector3 observerPos)
+{
+    _playerSnapshotBuffer.Clear();
+    foreach (var netId in _dirtyPlayers)
+    {
+        // ... (관심 영역 체크 로직)
+        if (sqrDistance > _sqrSyncDistance) continue;
+
+        _playerSnapshotBuffer.Add(new PlayerSnapshot(/*...*/));
+    }
+    SendPlayerSnapshots(clientId, _playerSnapshotBuffer);
+}
+```
+이러한 최적화 설계를 통해 `StackGuys`는 대규모 인원이 쾌적하게 플레이할 수 있는 네트워크 환경을 구축했습니다.
+
+<br>
+
+## 2. RustyDome_ (매트로배니아 플랫포머)**🔗 Repository:** [Rostreaca/RustyDome_](https://github.com/Rostreaca/RustyDome_)
 
 무기 조합과 캐릭터 커스터마이징이 가능한 메트로배니아 스타일의 싱글플레이 플랫포머 게임입니다.
 
