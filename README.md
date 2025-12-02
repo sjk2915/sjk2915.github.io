@@ -66,14 +66,19 @@ public struct PlayerSnapshot : INetworkSerializeByMemcpy
 
     private const float COMPRESS_RATIO = 50f; // 2cm 단위 정밀도
 
+    // 생성자로 데이터를 넣을 때 자동 압축
     public PlayerSnapshot(ulong netId, Vector3 pos, float rotY)
     {
-        NetworkObjectId = (ushort)netId;
+        NetworkObjectId = (ushort)netId; // 주의: ID 65535 넘으면 오버플로우
+
         X = (short)Mathf.RoundToInt(pos.x * COMPRESS_RATIO);
         Y = (short)Mathf.RoundToInt(pos.y * COMPRESS_RATIO);
         Z = (short)Mathf.RoundToInt(pos.z * COMPRESS_RATIO);
-        // ...
+
+        float normalizedRot = Mathf.Repeat(rotY, 360f);
+        YRotation = (ushort)(normalizedRot / 360f * 65535f); // 0.005도 오차
     }
+    // ...
 }
 ```
 
