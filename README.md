@@ -1,12 +1,25 @@
 # 안녕하세요, 서정의 포트폴리오입니다.
-> Unity와 C#을 기반으로 한 게임 개발 역량과 OS, 네트워크 등 탄탄한 CS 기초를 갖추고 있습니다.
+🎮 **Game Programmer**를 꿈꾸는 시스템 프로그래밍 기반 개발자입니다.
+
+🌱 **KRAFTON Jungle 10기** 수료 - 알고리즘, 시스템 프로그래밍, 실전형 소프트웨어 엔지니어링 부트캠프
 <br>
 
 
-## 🛠 Skills
+## 🔧 Tech Stack
 
-* **Languages:** C#, Python
-* **Engines & Tools:** Unity, Git, Docker
+**Languages**
+
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+**Engines & Tools:**
+
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+<br>
+
 * **Unity Client & Tooling:**
    * FSM 기반의 확장성 있는 캐릭터 로직 설계 및 구현
    * 기획/아트 파트의 생산성을 높이는 Editor Scripting 및 커스텀 툴 개발
