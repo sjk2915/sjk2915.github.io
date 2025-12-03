@@ -52,16 +52,15 @@
 
 *(이미지를 클릭하면 시연 영상을 보실 수 있습니다. 발표는 팀장이 진행하였습니다.)*
 
-### 포스터
 <details>
 <summary><b>🖼 포스터 보기 (Click)</b></summary>
 <br>
 <img src="https://github.com/user-attachments/assets/db26e98f-4538-45ab-98a3-8562b34e27d5" width="600">
 </details>
 
+<details>
+<summary><b>📐 주요 설계 및 구현 (Click)</b></summary>
 <br>
-
-### 📐 주요 설계 및 구현 (Architectural Deep Dive)
 
 #### 커스텀 패킷 배칭 시스템 설계 및 구현
 
@@ -135,6 +134,7 @@ private void SendPlayerBatch(ulong clientId, Vector3 observerPos)
 }
 ```
 이러한 최적화 설계를 통해 `StackGuys`는 대규모 인원이 쾌적하게 플레이할 수 있는 네트워크 환경을 구축했습니다.
+</details>
 
 <br>
 
@@ -160,9 +160,9 @@ private void SendPlayerBatch(ulong clientId, Vector3 observerPos)
 <img width="600" height="400" alt="RustyDome_그림3" src="https://github.com/user-attachments/assets/c25b6d7b-6692-4810-a6ca-b8faff41e071" />
 </details>
 
+<details>
+<summary><b>📐 주요 설계 및 구현 (Click)</b></summary>
 <br>
-
-### 📐 주요 설계 및 구현 (Architectural Deep Dive)
 
 이 프로젝트는 데이터와 로직을 명확하게 분리하는 **데이터 주도 설계(Data-Driven Design)** 를 핵심 아키텍처로 채택했습니다.
 특히 **ScriptableObject(SO)** 를 적극적으로 활용하여 기획 데이터와 게임 로직 간의 의존성을 최소화하고, 코드 수정 없이도 콘텐츠를 확장할 수 있는 유연한 구조를 구현했습니다.
@@ -248,7 +248,7 @@ public class PlayerCombat : MonoBehaviour
 }
 ```
 이처럼 `RustyDome`은 확장성과 유지보수성을 최우선으로 고려한 설계를 통해, 복잡한 게임 시스템을 효율적으로 구축한 경험을 보여주는 프로젝트입니다.
-
+</details>
 <br>
 
 ## 3. JungleGame (Github 연동 추첨 웹 서비스)
