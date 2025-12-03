@@ -18,8 +18,8 @@
 ![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-<br>
 
+## 💻 Core Competencies
 * **Unity Client & Tooling:**
    * FSM 기반의 확장성 있는 캐릭터 로직 설계 및 구현
    * 기획/아트 파트의 생산성을 높이는 Editor Scripting 및 커스텀 툴 개발
