@@ -58,8 +58,9 @@
 <img src="https://github.com/user-attachments/assets/db26e98f-4538-45ab-98a3-8562b34e27d5" width="600">
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>📐 주요 설계 및 구현 (Click)</b></summary>
+  
 <br>
 
 #### 커스텀 패킷 배칭 시스템 설계 및 구현
@@ -161,8 +162,9 @@ private void SendPlayerBatch(ulong clientId, Vector3 observerPos)
 <img width="600" height="400" alt="RustyDome_그림3" src="https://github.com/user-attachments/assets/c25b6d7b-6692-4810-a6ca-b8faff41e071" />
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>📐 주요 설계 및 구현 (Click)</b></summary>
+  
 <br>
 
 이 프로젝트는 데이터와 로직을 명확하게 분리하는 **데이터 주도 설계(Data-Driven Design)** 를 핵심 아키텍처로 채택했습니다.
