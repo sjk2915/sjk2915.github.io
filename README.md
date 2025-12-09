@@ -48,7 +48,7 @@
     * **맵 에디터, 부하 테스트 프로그램:** 생산성 향상을 위한 맵 에디터 구현 및 서버 부하 테스트를 위한 테스트 프로그램 자체 개발.
  
 ### 🎥 시연영상
-**[![Video Label](http://img.youtube.com/vi/dXCM9R4kjuk/0.jpg)](https://youtu.be/dXCM9R4kjuk)**
+**[![Video Label](http://img.youtube.com/vi/Fh3Ibfskyzw/0.jpg)](https://youtu.be/Fh3Ibfskyzw)**
 
 *(이미지를 클릭하면 시연 영상을 보실 수 있습니다. 발표는 팀장이 진행하였습니다.)*
 
