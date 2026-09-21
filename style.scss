@@ -1,0 +1,24 @@
+@import "{{ site.theme }}";
+
+@media print {
+  /* 주요 프로젝트 카드 및 큰 제목이 페이지 중간에서 잘리지 않도록 설정 */
+  h1, h2, h3, section, article, .project-card, details {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* 접혀있는 details 태그를 인쇄할 때는 전부 강제로 펼치기 */
+  details {
+    display: block !important;
+  }
+  
+  details[open] summary ~ * {
+    animation: sweep .5s ease-in-out;
+  }
+
+  /* 인쇄용 여백 정돈 */
+  body {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
