@@ -1,3 +1,24 @@
+<style>
+@media print {
+  /* 1. 제목, 프로젝트 섹션, 코드 블록 등이 페이지 중간에서 툭 끊기지 않도록 방지 */
+  h1, h2, h3, p, ul, ol, details, pre, code, blockquote {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* 2. 접혀있는 <details> 항목을 인쇄/PDF 저장 시 자동으로 전부 펼침 */
+  details {
+    display: block !important;
+  }
+
+  /* 3. 인쇄 시 여백 최적화 */
+  body {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+</style>
+
 # 안녕하세요, 서정의 포트폴리오입니다.
 🎮 **Game Programmer**를 꿈꾸는 시스템 프로그래밍 기반 개발자입니다.
 
